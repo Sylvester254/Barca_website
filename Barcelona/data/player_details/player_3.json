@@ -1,0 +1,27 @@
+{
+    "id": 3,
+    "name": "Sergio Busquets",
+    "position": "Defensive Midfielder",
+    "age": 33,
+    "club_history": ["FC Barcelona"],
+    "current_season_appearances": 25,
+    "current_season_goals": 1,
+    "bio": "Sergio Busquets is a Spanish professional footballer who plays as a defensive midfielder for FC Barcelona and the Spain national team. A product of La Masia, Barcelona's youth academy, Busquets is known for his incredible vision, tactical awareness, and ball control.",
+    "additional_content": [
+        {
+            "type": "video",
+            "title": "Busquets: The Art of Midfield",
+            "url": "https://www.youtube.com/watch?v=example3"
+        },
+        {
+            "type": "article",
+            "title": "Sergio Busquets: The Silent Maestro",
+            "url": "https://www.example.com/article3"
+        },
+        {
+            "type": "podcast",
+            "title": "The importance of a defensive midfielder",
+            "url": "https://www.example.com/podcast3"
+        }
+    ]
+}

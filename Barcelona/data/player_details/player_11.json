@@ -1,0 +1,27 @@
+{
+    "id": 11,
+    "name": "Samuel Umtiti",
+    "position": "Center Back",
+    "age": 28,
+    "club_history": ["Lyon", "FC Barcelona"],
+    "current_season_appearances": 15,
+    "current_season_goals": 1,
+    "bio": "Samuel Umtiti is a French professional footballer who plays as a center back for FC Barcelona and the France national team. Umtiti joined Barcelona from Lyon in 2016 and has since been an important figure in the team's defense, known for his strong tackling and aerial abilities.",
+    "additional_content": [
+        {
+            "type": "video",
+            "title": "Samuel Umtiti's defensive masterclass",
+            "url": "https://www.youtube.com/watch?v=example11"
+        },
+        {
+            "type": "article",
+            "title": "Samuel Umtiti: Overcoming injuries and regaining form",
+            "url": "https://www.example.com/article11"
+        },
+        {
+            "type": "podcast",
+            "title": "The importance of Umtiti in Barcelona's backline",
+            "url": "https://www.example.com/podcast11"
+        }
+    ]
+}

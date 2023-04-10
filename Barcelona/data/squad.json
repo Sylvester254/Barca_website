@@ -1,0 +1,179 @@
+[
+    {
+        "id": 1,
+        "name": "Marc-André ter Stegen",
+        "position": "Goalkeeper",
+        "nationality": "Germany",
+        "player_link": "player_details.php?id=1"
+    },
+    {
+        "id": 2,
+        "name": "Neto",
+        "position": "Goalkeeper",
+        "nationality": "Brazil",
+        "player_link": "player_details.php?id=2"
+    },
+    {
+        "id": 3,
+        "name": "Gerard Piqué",
+        "position": "Defender",
+        "nationality": "Spain",
+        "player_link": "player_details.php?id=3"
+    },
+    {
+        "id": 4,
+        "name": "Ronald Araújo",
+        "position": "Defender",
+        "nationality": "Uruguay",
+        "player_link": "player_details.php?id=4"
+    },
+    {
+        "id": 5,
+        "name": "Clément Lenglet",
+        "position": "Defender",
+        "nationality": "France",
+        "player_link": "player_details.php?id=5"
+    },
+    {
+        "id": 6,
+        "name": "Samuel Umtiti",
+        "position": "Defender",
+        "nationality": "France",
+        "player_link": "player_details.php?id=6"
+    },
+    {
+        "id": 7,
+        "name": "Jordi Alba",
+        "position": "Defender",
+        "nationality": "Spain",
+        "player_link": "player_details.php?id=7"
+    },
+    {
+        "id": 8,
+        "name": "Sergi Roberto",
+        "position": "Defender",
+        "nationality": "Spain",
+        "player_link": "player_details.php?id=8"
+    },
+    {
+        "id": 9,
+        "name": "Sergio Busquets",
+        "position": "Midfielder",
+        "nationality": "Spain",
+        "player_link": "player_details.php?id=9"
+    },
+    {
+        "id": 10,
+        "name": "Carles Aleñá",
+        "position": "Midfielder",
+        "nationality": "Spain",
+        "player_link": "player_details.php?id=10"
+    },
+    {
+        "id": 11,
+        "name": "Miralem Pjanic",
+        "position": "Midfielder",
+        "nationality": "Bosnia and Herzegovina",
+        "player_link": "player_details.php?id=11"
+    },
+    {
+        "id": 12,
+        "name": "Riqui Puig",
+        "position": "Midfielder",
+        "nationality": "Spain",
+        "player_link": "player_details.php?id=12"
+    },
+    {
+        "id": 13,
+        "name": "Frenkie de Jong",
+        "position": "Midfielder",
+        "nationality": "Netherlands",
+        "player_link": "player_details.php?id=13"
+    },
+    {
+        "id": 14,
+        "name": "Pedri",
+        "position": "Midfielder",
+        "nationality": "Spain",
+        "player_link": "player_details.php?id=14"
+    },
+    {
+        "id": 15,
+        "name": "Matheus Fernandes",
+        "position": "Midfielder",
+        "nationality": "Brazil",
+        "player_link": "player_details.php?id=15"
+    },
+    {
+        "id": 16,
+        "name": "Philippe Coutinho",
+        "position": "Midfielder",
+        "nationality": "Brazil",
+        "player_link": "player_details.php?id=16"
+    },
+    {
+        "id": 17,
+        "name": "Ansu Fati",
+        "position": "Forward",
+        "nationality": "Spain",
+        "player_link": "player_details.php?id=17"
+    },
+    {
+        "id": 18,
+        "name": "Martin Braithwaite",
+        "position": "Forward",
+        "nationality": "Denmark",
+        "player_link": "player_details.php?id=18"
+    },
+    {
+        "id": 19,
+        "name": "Ousmane Dembélé",
+        "position": "Forward",
+        "nationality": "France",
+        "player_link": "player_details.php?id=19"
+    },
+    {
+        "id": 20,
+        "name": "Lionel Messi",
+        "position": "Forward",
+        "nationality": "Argentina",
+        "player_link": "player_details.php?id=20"
+    },
+    {
+        "id": 21,
+        "name": "Antoine Griezmann",
+        "position": "Forward",
+        "nationality": "France",
+        "player_link": "player_details.php?id=21"
+    },
+    {
+        "id": 22,
+        "name": "Trincão",
+        "position": "Forward",
+        "nationality": "Portugal",
+        "player_link": "player_details.php?id=22"
+    },
+    {
+        "id": 23,
+        "name": "Konrad de la Fuente",
+        "position": "Forward",
+        "nationality": "United States",
+        "player_link": "player_details.php?id=23"
+    },
+    {
+        "id": 24,
+        "name": "Junior Firpo",
+        "position": "Defender",
+        "nationality": "Dominican Republic",
+        "player_link": "player_details.php?id=24"
+    },
+    {
+        "id": 25,
+        "name": "Moussa Wagué",
+        "position": "Defender",
+        "nationality": "Senegal",
+        "player_link": "player_details.php?id=25"
+    }
+]
+
+       

@@ -1,0 +1,27 @@
+{
+    "id": 5,
+    "name": "Frenkie de Jong",
+    "position": "Central Midfielder",
+    "age": 24,
+    "club_history": ["Willem II", "Ajax", "FC Barcelona"],
+    "current_season_appearances": 31,
+    "current_season_goals": 4,
+    "bio": "Frenkie de Jong is a Dutch professional footballer who plays as a central midfielder for FC Barcelona and the Netherlands national team. De Jong joined Barcelona from Ajax in 2019 and has since become an integral part of the team, known for his excellent ball control and vision.",
+    "additional_content": [
+        {
+            "type": "video",
+            "title": "Frenkie de Jong's top assists",
+            "url": "https://www.youtube.com/watch?v=example5"
+        },
+        {
+            "type": "article",
+            "title": "The making of Frenkie de Jong",
+            "url": "https://www.example.com/article5"
+        },
+        {
+            "type": "podcast",
+            "title": "Frenkie de Jong: The future of Barcelona's midfield",
+            "url": "https://www.example.com/podcast5"
+        }
+    ]
+}

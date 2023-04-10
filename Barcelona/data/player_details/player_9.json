@@ -1,0 +1,27 @@
+{
+    "id": 9,
+    "name": "Jordi Alba",
+    "position": "Left Back",
+    "age": 33,
+    "club_history": ["Valencia", "FC Barcelona"],
+    "current_season_appearances": 29,
+    "current_season_goals": 2,
+    "bio": "Jordi Alba is a Spanish professional footballer who plays as a left back for FC Barcelona and the Spain national team. Alba joined Barcelona from Valencia in 2012 and has since become one of the best left backs in the world, known for his pace, crossing ability, and defensive skills.",
+    "additional_content": [
+        {
+            "type": "video",
+            "title": "Jordi Alba's top assists and goals",
+            "url": "https://www.youtube.com/watch?v=example9"
+        },
+        {
+            "type": "article",
+            "title": "Jordi Alba: The Road to Success",
+            "url": "https://www.example.com/article9"
+        },
+        {
+            "type": "podcast",
+            "title": "The importance of fullbacks in modern football",
+            "url": "https://www.example.com/podcast9"
+        }
+    ]
+}

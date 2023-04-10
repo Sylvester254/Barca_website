@@ -1,0 +1,71 @@
+{
+    "news": [
+        {
+            "title": "Article 1",
+            "summary": "Summary of Article 1",
+            "full_article_link": "article1.json"
+        },
+        {
+            "title": "Article 2",
+            "summary": "Summary of Article 2",
+            "full_article_link": "article2.json"
+        },
+        {
+            "title": "Article 3",
+            "summary": "Summary of Article 3",
+            "full_article_link": "article3.json"
+        }
+    ],
+    "external_links": [
+        {
+            "title": "External News 1",
+            "source": "Source 1",
+            "url": "https://www.example.com/news/external1"
+        },
+        {
+            "title": "External News 2",
+            "source": "Source 2",
+            "url": "https://www.example.com/news/external2"
+        },
+        {
+            "title": "External News 3",
+            "source": "Source 3",
+            "url": "https://www.example.com/news/external2"
+        },
+        {
+            "title": "External News 4",
+            "source": "Source 4",
+            "url": "https://www.example.com/news/external2"
+        },
+        {
+            "title": "External News 5",
+            "source": "Source 5",
+            "url": "https://www.example.com/news/external2"
+        },
+        {
+            "title": "External News 6",
+            "source": "Source 6",
+            "url": "https://www.example.com/news/external2"
+        },
+        {
+            "title": "External News 7",
+            "source": "Source 7",
+            "url": "https://www.example.com/news/external2"
+        },
+        {
+            "title": "External News 8",
+            "source": "Source 8",
+            "url": "https://www.example.com/news/external2"
+        },
+        {
+            "title": "External News 9",
+            "source": "Source 9",
+            "url": "https://www.example.com/news/external2"
+        },
+        {
+            "title": "External News 10",
+            "source": "Source 10",
+            "url": "https://www.example.com/news/external2"
+        }
+    ]
+}

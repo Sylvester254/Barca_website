@@ -1,0 +1,27 @@
+{
+    "id": 6,
+    "name": "Ansu Fati",
+    "position": "Forward",
+    "age": 19,
+    "club_history": ["FC Barcelona"],
+    "current_season_appearances": 18,
+    "current_season_goals": 10,
+    "bio": "Ansu Fati is a Spanish professional footballer who plays as a forward for FC Barcelona and the Spain national team. A product of La Masia, Fati made his first-team debut at the age of 16 and quickly became one of the most exciting prospects in world football.",
+    "additional_content": [
+        {
+            "type": "video",
+            "title": "Ansu Fati's best goals so far",
+            "url": "https://www.youtube.com/watch?v=example6"
+        },
+        {
+            "type": "article",
+            "title": "Ansu Fati: The next big thing at FC Barcelona",
+            "url": "https://www.example.com/article6"
+        },
+        {
+            "type": "podcast",
+            "title": "Ansu Fati: The rise of a young talent",
+            "url": "https://www.example.com/podcast6"
+        }
+    ]
+}

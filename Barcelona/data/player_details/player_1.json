@@ -1,0 +1,27 @@
+{
+    "id": 1,
+    "name": "Marc-André ter Stegen",
+    "position": "Goalkeeper",
+    "age": 29,
+    "club_history": ["Borussia Mönchengladbach", "FC Barcelona"],
+    "current_season_appearances": 30,
+    "current_season_goals": 0,
+    "bio": "Marc-André ter Stegen is a German professional footballer who plays as a goalkeeper for FC Barcelona and the German national team. Known for his composure on the ball and exceptional reflexes, ter Stegen has been a crucial part of Barcelona's success since joining the club in 2014.",
+    "additional_content": [
+        {
+            "type": "video",
+            "title": "Best saves of 2020/2021 season",
+            "url": "https://www.youtube.com/watch?v=example1"
+        },
+        {
+            "type": "article",
+            "title": "How ter Stegen became Barcelona's undisputed number one",
+            "url": "https://www.example.com/article1"
+        },
+        {
+            "type": "podcast",
+            "title": "Goalkeeper's role in modern football",
+            "url": "https://www.example.com/podcast1"
+        }
+    ]
+}
