@@ -19,7 +19,11 @@ class masterPage {
     public function renderPage() {
         echo $this->createHeader() . $this->dynamic1 . $this->dynamic2 . $this->createFooter();
     }
-   
+    
+    public function setContent($content) {
+        $this->content = $content;
+    }
+    
     private function createHeader() {
         $header = <<<'HEADER'
 <!DOCTYPE html>
@@ -52,7 +56,7 @@ class masterPage {
                     <a class="nav-link" href="player_details_page.php">Player Details</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="signup_page.php">Sign Up</a>
+                    <a class="nav-link" href="login_page.php">Sign Up</a>
                 </li>
             </ul>
         </div>

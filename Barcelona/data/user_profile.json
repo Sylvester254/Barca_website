@@ -1,0 +1,15 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "johndoe",
+            "email": "johndoe@example.com",
+            "password": "hashed_password_here",
+            "first_name": "John",
+            "last_name": "Doe",
+            "country": "United States",
+            "favorite_player": "Lionel Messi",
+            "registration_date": "2023-04-10"
+        }
+    ]
+}

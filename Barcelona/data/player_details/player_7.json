@@ -1,27 +1,27 @@
 {
     "id": 7,
-    "name": "Ousmane Dembele",
-    "position": "Winger",
-    "age": 24,
-    "club_history": ["Rennes", "Borussia Dortmund", "FC Barcelona"],
-    "current_season_appearances": 20,
-    "current_season_goals": 7,
-    "bio": "Ousmane Dembele is a French professional footballer who plays as a winger for FC Barcelona and the France national team. Dembele joined Barcelona from Borussia Dortmund in 2017 and is known for his dribbling skills, speed, and ability to score from both feet.",
+    "name": "Jordi Alba",
+    "position": "Left Back",
+    "age": 33,
+    "club_history": ["Valencia", "FC Barcelona"],
+    "current_season_appearances": 29,
+    "current_season_goals": 2,
+    "bio": "Jordi Alba is a Spanish professional footballer who plays as a left back for FC Barcelona and the Spain national team. Alba joined Barcelona from Valencia in 2012 and has since become one of the best left backs in the world, known for his pace, crossing ability, and defensive skills.",
     "additional_content": [
         {
             "type": "video",
-            "title": "Ousmane Dembele's top dribbles and goals",
-            "url": "https://www.youtube.com/watch?v=example7"
+            "title": "Jordi Alba's top assists and goals",
+            "url": "https://www.youtube.com/watch?v=example9"
         },
         {
             "type": "article",
-            "title": "Ousmane Dembele: The journey from Rennes to Barcelona",
-            "url": "https://www.example.com/article7"
+            "title": "Jordi Alba: The Road to Success",
+            "url": "https://www.example.com/article9"
         },
         {
             "type": "podcast",
-            "title": "Discussing Ousmane Dembele's potential",
-            "url": "https://www.example.com/podcast7"
+            "title": "The importance of fullbacks in modern football",
+            "url": "https://www.example.com/podcast9"
         }
     ]
 }

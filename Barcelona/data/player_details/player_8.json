@@ -1,27 +1,27 @@
 {
     "id": 8,
-    "name": "Pedri",
-    "position": "Midfielder",
-    "age": 19,
-    "club_history": ["Las Palmas", "FC Barcelona"],
-    "current_season_appearances": 28,
-    "current_season_goals": 4,
-    "bio": "Pedri is a Spanish professional footballer who plays as a midfielder for FC Barcelona and the Spain national team. He joined Barcelona from Las Palmas in 2020 and quickly established himself as one of the brightest young talents in European football.",
+    "name": "Sergi Roberto",
+    "position": "Right Back / Midfielder",
+    "age": 29,
+    "club_history": ["FC Barcelona"],
+    "current_season_appearances": 22,
+    "current_season_goals": 2,
+    "bio": "Sergi Roberto is a Spanish professional footballer who plays as a right back or midfielder for FC Barcelona and the Spain national team. Known for his versatility, Sergi Roberto has played in various positions throughout his career and is a product of La Masia.",
     "additional_content": [
         {
             "type": "video",
-            "title": "Pedri's best moments in La Liga",
-            "url": "https://www.youtube.com/watch?v=example8"
+            "title": "Sergi Roberto's memorable goal against PSG",
+            "url": "https://www.youtube.com/watch?v=example4"
         },
         {
             "type": "article",
-            "title": "Pedri: The new midfield maestro at Barcelona",
-            "url": "https://www.example.com/article8"
+            "title": "Sergi Roberto: Barcelona's Utility Man",
+            "url": "https://www.example.com/article4"
         },
         {
             "type": "podcast",
-            "title": "Pedri's impact on the Spanish national team",
-            "url": "https://www.example.com/podcast8"
+            "title": "The value of versatility in football",
+            "url": "https://www.example.com/podcast4"
         }
     ]
 }

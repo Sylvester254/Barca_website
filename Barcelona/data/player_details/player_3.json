@@ -1,27 +1,27 @@
 {
     "id": 3,
-    "name": "Sergio Busquets",
-    "position": "Defensive Midfielder",
-    "age": 33,
-    "club_history": ["FC Barcelona"],
-    "current_season_appearances": 25,
-    "current_season_goals": 1,
-    "bio": "Sergio Busquets is a Spanish professional footballer who plays as a defensive midfielder for FC Barcelona and the Spain national team. A product of La Masia, Barcelona's youth academy, Busquets is known for his incredible vision, tactical awareness, and ball control.",
+    "name": "Gerard Piqué",
+    "position": "Centre Back",
+    "age": 34,
+    "club_history": ["Manchester United", "Real Zaragoza (Loan)", "FC Barcelona"],
+    "current_season_appearances": 28,
+    "current_season_goals": 2,
+    "bio": "Gerard Piqué is a Spanish professional footballer who plays as a centre back for FC Barcelona and the Spain national team. A product of Barcelona's youth academy, Piqué has won numerous titles and accolades during his time with the Catalan giants.",
     "additional_content": [
         {
             "type": "video",
-            "title": "Busquets: The Art of Midfield",
-            "url": "https://www.youtube.com/watch?v=example3"
+            "title": "Piqué's top 5 goals for FC Barcelona",
+            "url": "https://www.youtube.com/watch?v=example2"
         },
         {
             "type": "article",
-            "title": "Sergio Busquets: The Silent Maestro",
-            "url": "https://www.example.com/article3"
+            "title": "The leadership of Gerard Piqué",
+            "url": "https://www.example.com/article2"
         },
         {
             "type": "podcast",
-            "title": "The importance of a defensive midfielder",
-            "url": "https://www.example.com/podcast3"
+            "title": "Defensive masterclass: Analyzing Piqué's career",
+            "url": "https://www.example.com/podcast2"
         }
     ]
 }

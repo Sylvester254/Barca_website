@@ -1,0 +1,27 @@
+{
+    "id": 19,
+    "name": "Ousmane Dembele",
+    "position": "Winger",
+    "age": 24,
+    "club_history": ["Rennes", "Borussia Dortmund", "FC Barcelona"],
+    "current_season_appearances": 20,
+    "current_season_goals": 7,
+    "bio": "Ousmane Dembele is a French professional footballer who plays as a winger for FC Barcelona and the France national team. Dembele joined Barcelona from Borussia Dortmund in 2017 and is known for his dribbling skills, speed, and ability to score from both feet.",
+    "additional_content": [
+        {
+            "type": "video",
+            "title": "Ousmane Dembele's top dribbles and goals",
+            "url": "https://www.youtube.com/watch?v=example7"
+        },
+        {
+            "type": "article",
+            "title": "Ousmane Dembele: The journey from Rennes to Barcelona",
+            "url": "https://www.example.com/article7"
+        },
+        {
+            "type": "podcast",
+            "title": "Discussing Ousmane Dembele's potential",
+            "url": "https://www.example.com/podcast7"
+        }
+    ]
+}

@@ -9,7 +9,7 @@ function createSquadDetails() {
     foreach ($squad as $player) {
         $tableRows .= <<<ROW
 <tr>
-    <td><a href="{$player['player_link']}">{$player['name']}</a></td>
+    <td><a href="player_details_page.php?id={$player['id']}">{$player['name']}</a></td>
     <td>{$player['position']}</td>
     <td>{$player['nationality']}</td>
 </tr>
