@@ -1,12 +1,29 @@
 <?php
 require_once 'masterPage.php';
 require_once 'player_details.php';
+require_once 'player_opinion.php';
 
-// Get the player ID from the URL parameter
-$playerId = isset($_GET['id']) ? intval($_GET['id']) : 1;
+if (!isset($_GET['id']) || empty($_GET['id'])) {
+    header('Location: squad_details_page.php');
+    exit;
+}
 
-// Set the dynamic content
-$masterPage = new masterPage("");
-$masterPage->setDynamic1(createPlayerDetails($playerId));
+$player = getPlayerById($_GET['id']);
+
+if (!$player) {
+    header('Location: squad_details_page.php');
+    exit;
+}
+
+$masterPage = new masterPage("Player Details: {$player['name']}");
+
+// Check if the user is logged in
+$userId = null;
+$username = null;
+if (isset($_SESSION['user_id']) && isset($_SESSION['username'])) {
+    $userId = $_SESSION['user_id'];
+    $username = $_SESSION['username'];
+}
+
+$masterPage->setDynamic1(createPlayerDetails($player, $userId, $username));
 $masterPage->renderPage();
-

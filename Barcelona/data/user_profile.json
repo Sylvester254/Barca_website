@@ -1,15 +1,1 @@
-{
-    "users": [
-        {
-            "id": 1,
-            "username": "johndoe",
-            "email": "johndoe@example.com",
-            "password": "hashed_password_here",
-            "first_name": "John",
-            "last_name": "Doe",
-            "country": "United States",
-            "favorite_player": "Lionel Messi",
-            "registration_date": "2023-04-10"
-        }
-    ]
-}
+{"users":[{"id":1,"username":"johndoe","email":"johndoe@example.com","password":"hashed_password_here","first_name":"John","last_name":"Doe","country":"United States","favorite_player":"Lionel Messi","registration_date":"2023-04-10"},{"id":2,"username":"iamkiranga","email":"slynganga59@gmail.com","password":"$2y$10$WlOt0vmXRtJZXxY9pDrd3OCNcfl1ZVxm\/QbujgPE9Gv7UnfSYKFeS","first_name":"Iam","last_name":"Kiranga ","country":"Kenya","favorite_player":"Messi","registration_date":"2023-04-10"},{"id":3,"username":"sly","email":"sly@gmail.com","password":"$2y$10$RDaOO4MFR8olBz5Tj1EnieQFh0HNGXdpZndYbD0wQIFpcBOslaCN.","first_name":"Iam","last_name":"sly","country":"France","favorite_player":"Lewandowski","registration_date":"2023-04-10"}]}

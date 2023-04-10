@@ -1,4 +1,5 @@
 <?php
+session_start();
 class masterPage {
     private $title;
     private $dynamic1;
@@ -19,13 +20,19 @@ class masterPage {
     public function renderPage() {
         echo $this->createHeader() . $this->dynamic1 . $this->dynamic2 . $this->createFooter();
     }
-    
-    public function setContent($content) {
-        $this->content = $content;
-    }
-    
+  
     private function createHeader() {
-        $header = <<<'HEADER'
+        $username = '';
+        $signupOrSignout = '<a class="nav-link" href="login_page.php">Sign Up</a>';
+        $profileLink = '';
+        
+        if (isset($_SESSION['username'])) {
+            $username = '<li class="nav-item"><span class="nav-link">Welcome, ' . $_SESSION['username'] . '</span></li>';
+            $signupOrSignout = '<a class="nav-link" href="logout.php">Sign Out</a>';
+            $profileLink = '<li class="nav-item"><a class="nav-link" href="user_profile_page.php">Profile</a></li>';
+        }
+        
+        $header = <<<HEADER
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,13 +41,15 @@ class masterPage {
     <title>{$this->title}</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Add jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5PR6eve17hf+oc_moDQbU6EurU6e9g_L5z7XIRW5" crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.php">Football Club</a>
+        <a class="navbar-brand" href="index.php">FC Barcelona</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,11 +61,10 @@ class masterPage {
                 <li class="nav-item">
                     <a class="nav-link" href="squad_details_page.php">Squad Details</a>
                 </li>
+                {$username}
+                {$profileLink}
                 <li class="nav-item">
-                    <a class="nav-link" href="player_details_page.php">Player Details</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login_page.php">Sign Up</a>
+                    {$signupOrSignout}
                 </li>
             </ul>
         </div>
@@ -64,8 +72,8 @@ class masterPage {
     <!-- Page Content -->
     <div class="container">
 HEADER;
-
-        return $header;
+                
+                return $header;
     }
 
     private function createFooter() {

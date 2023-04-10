@@ -51,16 +51,52 @@ function registerUser($username, $email, $password, $first_name, $last_name, $co
 // Verifies the user login
 function loginUser($username, $password) {
     $users = readUsersFromFile();
-
+    
     foreach ($users['users'] as $user) {
         if ($user['username'] == $username) {
             if (password_verify($password, $user['password'])) {
-                return "Logged in successfully.";
+                // Set session variables
+                $_SESSION['user_id'] = $user['id'];
+                $_SESSION['username'] = $user['username'];
+                
+                // Redirect the user to index.php
+                header('Location: index.php');
+                exit;
             } else {
                 return "Invalid password. Please try again.";
             }
         }
     }
-
+    
     return "Username not found. Please register.";
 }
+
+function createProfileContent($user) {
+    $html = <<<PROFILE
+    <div class="container">
+        <h2>User Profile</h2>
+        <p>Username: {$user['username']}</p>
+        <p>Email: {$user['email']}</p>
+        <p>First Name: {$user['first_name']}</p>
+        <p>Last Name: {$user['last_name']}</p>
+        <p>Country: {$user['country']}</p>
+        <p>Favorite Player: {$user['favorite_player']}</p>
+        <p>Registration Date: {$user['registration_date']}</p>
+    </div>
+PROFILE;
+    
+    return $html;
+}
+
+function getUserById($userId) {
+    $users = readUsersFromFile();
+    
+    foreach ($users['users'] as $user) {
+        if ($user['id'] == $userId) {
+            return $user;
+        }
+    }
+    
+    return null;
+}
+
