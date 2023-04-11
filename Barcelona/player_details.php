@@ -11,22 +11,27 @@ function createPlayerDetails($player, $userId = null, $username = null) {
     $opinionsHtml = createOpinionsSection($player['id'], $userId, $username);
     
     $html = <<<PLAYER_DETAILS
-    <div class="container">
-        <h2>{$player['name']}</h2>
-        <p>Position: {$player['position']}</p>
+    <div class="container player-details-container">
+        <h2 class="display-4">{$player['name']}</h2>
+        <p class="lead">Position: {$player['position']}</p>
         <p>Age: {$player['age']}</p>
         <p>Club History: {$clubHistoryString}</p>
         <p>Current Season Appearances: {$player['current_season_appearances']}</p>
         <p>Current Season Goals: {$player['current_season_goals']}</p>
         <p>Bio: {$player['bio']}</p>
         
-        <h3>Additional Content</h3>
-        {$additionalContentHtml}
+        <h3 class="mt-4">Additional Content</h3>
+        <div class="additional-content">
+            {$additionalContentHtml}
+        </div>
         
-        <h3>What fans think</h3>
-        {$opinionsHtml}
+        <h3 class="mt-4">What fans think</h3>
+        <div class="opinions">
+            {$opinionsHtml}
+        </div>
     </div>
 PLAYER_DETAILS;
+            
         
         return $html;
 }
@@ -55,13 +60,13 @@ function createOpinionsSection($playerId, $userId = null, $username = null) {
         $opinionsHtml .= "<p>No opinions found for this player.</p>";
     } else {
         foreach ($opinions as $opinion) {
-            $opinionsHtml .= "<p><strong>{$opinion['username']}:</strong> {$opinion['opinion_text']}</p>";
+            $opinionsHtml .= "<div class='opinion'><p><strong>{$opinion['username']}:</strong> {$opinion['opinion_text']}</p></div>";
         }
     }
     
     if ($userId !== null && $username !== null) {
         $opinionsHtml .= <<<OPINION_FORM
-        <form action="post_opinion.php" method="POST">
+        <form action="post_opinion.php" method="POST" class="opinion-form">
             <input type="hidden" name="player_id" value="{$playerId}">
             <input type="hidden" name="user_id" value="{$userId}">
             <input type="hidden" name="username" value="{$username}">
@@ -69,7 +74,7 @@ function createOpinionsSection($playerId, $userId = null, $username = null) {
                 <label for="opinionText">Post your opinion:</label>
                 <textarea class="form-control" name="opinionText" id="opinionText" rows="3" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary submit-button">Submit</button>
         </form>
 OPINION_FORM;
     } else {
@@ -78,3 +83,4 @@ OPINION_FORM;
     
     return $opinionsHtml;
 }
+

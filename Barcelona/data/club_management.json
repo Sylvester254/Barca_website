@@ -1,4 +1,75 @@
 {
-    "title": "FC Barcelona Club Management",
-    "content": "The management team of FC Barcelona consists of dedicated professionals who oversee the club's operations, including finance, marketing, sports management, and public relations. The President, Board of Directors, and other key non-playing staff work together to ensure the club's continued success on and off the pitch. Their strategic decisions and long-term vision have contributed to FC Barcelona's status as one of the world's top football clubs."
+  "club_name": "FC Barcelona",
+  "founded": 1899,
+  "president": {
+    "name": "Joan Laporta",
+    "nationality": "Spanish",
+    "term_start": "2021",
+    "previous_experience": [
+      {
+        "position": "President",
+        "club": "FC Barcelona",
+        "year_start": "2003",
+        "year_end": "2010"
+      },
+      {
+        "position": "Member of Parliament",
+        "party": "Together for Catalonia",
+        "year_start": "2017",
+        "year_end": "2021"
+      }
+    ]
+  },
+  "board_members": [
+    {
+      "name": "Rafa Yuste",
+      "position": "Vice President",
+      "nationality": "Spanish"
+    },
+    {
+      "name": "Elena Fort",
+      "position": "Secretary",
+      "nationality": "Spanish"
+    },
+    {
+      "name": "Xavier Vilajoana",
+      "position": "Director of Professional Sports",
+      "nationality": "Spanish"
+    },
+    {
+      "name": "Josep Ramon Vidal-Abarca",
+      "position": "Director of Institutional Relations",
+      "nationality": "Spanish"
+    },
+    {
+      "name": "Jordi Moix",
+      "position": "Economic Vice President",
+      "nationality": "Spanish"
+    }
+  ],
+  "head_coach": {
+    "name": "Ronald Koeman",
+    "nationality": "Dutch",
+    "appointed": "2020",
+    "previous_clubs": [
+      {
+        "club": "Netherlands",
+        "position": "Head Coach",
+        "year_start": "2018",
+        "year_end": "2020"
+      },
+      {
+        "club": "Everton",
+        "position": "Head Coach",
+        "year_start": "2016",
+        "year_end": "2017"
+      },
+      {
+        "club": "Southampton",
+        "position": "Head Coach",
+        "year_start": "2014",
+        "year_end": "2016"
+      }
+    ]
+  }
 }

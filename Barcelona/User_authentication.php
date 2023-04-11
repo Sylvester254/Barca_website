@@ -73,17 +73,21 @@ function loginUser($username, $password) {
 
 function createProfileContent($user) {
     $html = <<<PROFILE
-    <div class="container">
-        <h2>User Profile</h2>
-        <p>Username: {$user['username']}</p>
-        <p>Email: {$user['email']}</p>
-        <p>First Name: {$user['first_name']}</p>
-        <p>Last Name: {$user['last_name']}</p>
-        <p>Country: {$user['country']}</p>
-        <p>Favorite Player: {$user['favorite_player']}</p>
-        <p>Registration Date: {$user['registration_date']}</p>
+    <div class="container profile-container">
+        <h2>Your Profile</h2>
+        <div class="profile-info">
+            <p><strong>Username:</strong> {$user['username']}</p>
+            <p><strong>Email:</strong> {$user['email']}</p>
+            <p><strong>First Name:</strong> {$user['first_name']}</p>
+            <p><strong>Last Name:</strong> {$user['last_name']}</p>
+            <p><strong>Country:</strong> {$user['country']}</p>
+            <p><strong>Favorite Player:</strong> {$user['favorite_player']}</p>
+            <p><strong>Registration Date:</strong> {$user['registration_date']}</p>
+        </div>
     </div>
 PROFILE;
+    
+    
     
     return $html;
 }

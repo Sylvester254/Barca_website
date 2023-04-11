@@ -1,18 +1,18 @@
 {
     "news": [
         {
-            "title": "Article 1",
-            "summary": "Summary of Article 1",
+            "title": "BARCELONA EXTEND LEAD AT TOP OF LA LIGA AS HOME TEAM HELD IN GOALLESS STALEMATE AGAINST GIRONA",
+            "summary": "Barcelona could have moved 15 points clear at the top of La Liga on Monday night but were unable to make the most of their chance as they were held to a 0-0 draw at home to Catalan rivals Girona in La Liga. Xavi Hernandez's men are edging closer to a first major trophy under their new manager while Girona are in 11th place in the league as the run-in approaches.",
             "full_article_link": "article1.json"
         },
         {
-            "title": "Article 2",
-            "summary": "Summary of Article 2",
+            "title": "Details of Lionel Messi's transfer meeting with Barcelona emerge as new proposal is made",
+            "summary": "Lionel Messi is out of contract at Paris Saint-Germain this summer and faces an uncertain future with Barcelona one of the clubs interested in a sensational transfer",
             "full_article_link": "article2.json"
         },
         {
-            "title": "Article 3",
-            "summary": "Summary of Article 3",
+            "title": "The road to the league title",
+            "summary": "No team has ever failed to go on to win the league after leading by such a margin at this stage of the season",
             "full_article_link": "article3.json"
         }
     ],

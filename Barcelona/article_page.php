@@ -7,8 +7,11 @@ function readArticle($articleFile) {
 
     $html = <<<ARTICLE
     <div class="container">
-        <h2>{$article['title']}</h2>
-        <p>{$article['content']}</p>
+        <div class="article-container">
+            <h2>{$article['title']}</h2>
+            <img src="path/to/your/image.jpg" alt="Article Image">
+            <p>{$article['content']}</p>
+        </div>
     </div>
 ARTICLE;
 

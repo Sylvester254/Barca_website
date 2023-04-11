@@ -4,7 +4,7 @@ require_once 'User_authentication.php';
 
 function createLoginForm($message) {
     $html = <<<LOGIN_FORM
-    <div class="container">
+    <div class="container login-container">
         <h2>Login</h2>
         <form action="login_page.php" method="post">
             <label for="username">Username:</label>

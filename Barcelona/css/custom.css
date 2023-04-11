@@ -1,0 +1,537 @@
+/* Gradient background for the navbar */
+.navbar {
+    background-image: linear-gradient(to right, #a81924, #204197);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+/* Spacing between the nav-items */
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+/* Nav item hover effect */
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Right-aligned nav items */
+.navbar-nav-right {
+    margin-left: auto;
+}
+
+/* Footer styling */
+.footer {
+    background-image: linear-gradient(to right, #a81924, #204197);
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+/* Page Content */
+.container {
+    padding-top: 50px; /* Add padding to the top to account for the fixed navbar */
+/*    min-height: calc(100vh - 80px - 60px);  Make sure the content area is tall enough */
+}
+
+.stadium-img-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56.25%; /* This creates a 16:9 aspect ratio for the image container */
+}
+
+.stadium-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.stadium-img-wrapper:hover .stadium-img {
+    transform: scale(1.1);
+}
+
+.kit-img-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 80%; /* This creates an aspect ratio for the image container */
+}
+
+.kit-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.kit-img-wrapper:hover .kit-img {
+    transform: scale(1.1);
+}
+
+
+/* Color gradient for buttons */
+.btn-gradient {
+    background-image: linear-gradient(to right, #a81924, #204197);
+    border: none;
+}
+
+.btn-gradient:hover, .btn-gradient:focus {
+    background-image: linear-gradient(to right, #204197, #a81924);
+}
+/*history*/
+.club-history-container {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+}
+
+.club-history-container h2 {
+    font-size: 2.5rem;
+    color: #204197;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.club-history-container .section-title {
+    font-size: 1.8rem;
+    color: #a81924;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.club-history-container .section-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+
+/*news*/
+.article-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.article-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.article-card .card-title {
+    font-weight: bold;
+    color: #204197;
+}
+
+.article-card .card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.article-card .btn-primary {
+    background-color: #a81924;
+    border-color: #a81924;
+}
+
+.article-card .btn-primary:hover {
+    background-color: #8b0000;
+    border-color: #8b0000;
+}
+
+.custom-list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+.custom-list-group-item:last-child {
+    border-bottom: none;
+}
+
+.custom-list-group-item a {
+    color: #204197;
+    text-decoration: none;
+}
+
+.custom-list-group-item a:hover {
+    color: #a81924;
+    text-decoration: underline;
+}
+
+.custom-list-group-item .badge {
+    background-color: #a81924;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+.custom-list-group-item:hover {
+    background-color: #f5f5f5;
+}
+
+/*article page*/
+.article-container {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article-container h2 {
+    font-size: 2.2rem;
+    color: #204197;
+    margin-bottom: 20px;
+}
+
+.article-container p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.article-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.article-container:last-child {
+    margin-bottom: 0;
+}
+
+/*squad details*/
+.squad-container {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.squad-container h2 {
+    font-size: 2.2rem;
+    color: #204197;
+    margin-bottom: 20px;
+}
+
+.squad-table {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.squad-table thead {
+    background-color: #a81924;
+    color: #fff;
+}
+
+.squad-table thead th {
+    padding: 15px 20px;
+}
+
+.squad-table tbody {
+    background-color: #fff;
+}
+
+.squad-table tbody tr {
+    border-bottom: 1px solid #eee;
+}
+
+.squad-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.squad-table tbody td {
+    padding: 15px 20px;
+}
+
+/*login page*/
+.login-container {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.login-container h2 {
+    font-size: 2.2rem;
+    color: #204197;
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    background-color: #204197;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #a81924;
+}
+
+.login-container p {
+    text-align: center;
+}
+
+/*registration page*/
+.registration-container {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.registration-container h2 {
+    font-size: 2.2rem;
+    color: #204197;
+    margin-bottom: 20px;
+}
+
+.registration-container form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.registration-container input[type="submit"] {
+    width: 100%;
+    background-color: #204197;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.registration-container input[type="submit"]:hover {
+    background-color: #a81924;
+}
+
+.registration-container p {
+    text-align: center;
+}
+
+/*management*/
+.club-management-container {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.club-management-container h2,
+.club-management-container h3,
+.club-management-container h4 {
+    margin-bottom: 0.75rem;
+}
+
+.club-name {
+    font-size: 2.2rem;
+    margin-bottom: 1.25rem;
+    color: #204197;
+    font-weight: bold;
+}
+
+.section-title {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+    color: #204197;
+    border-bottom: 2px solid #204197;
+    display: inline-block;
+    padding-bottom: 0.25rem;
+}
+
+.founded {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #444;
+}
+
+.president,
+.board-member,
+.head-coach {
+    padding: 1.25rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    background-color: #f8f8f8;
+}
+
+.board-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1.5rem;
+}
+
+.name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #204197;
+}
+
+.nationality,
+.appointed,
+.position,
+.term-start {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    color: #666;
+}
+/*player details*/
+.player-details-container {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.player-details-container h2 {
+    font-weight: bold;
+    color: #204197;
+    margin-bottom: 0.75rem;
+}
+
+.player-details-container h3 {
+    font-weight: bold;
+    color: #444;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.player-details-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.player-details-container p.lead {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.additional-content,
+.opinions {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    background-color: #f8f8f8;
+}
+
+.opinion {
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    background-color: #f8f8f8;
+}
+
+.opinion p {
+    margin: 0;
+}
+
+.opinion-form {
+    margin-top: 1.5rem;
+}
+.submit-button {
+    background-color: #204197;
+    border-color: #204197;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+    background-color: #17367A;
+    border-color: #17367A;
+}
+/*profile*/
+.profile-container {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.profile-container h2 {
+    margin-bottom: 1rem;
+    color: #204197;
+}
+
+.profile-info {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.profile-info p {
+    margin-bottom: 0.5rem;
+}
+
+.profile-info p:last-child {
+    margin-bottom: 0;
+}
+
+.profile-info strong {
+    font-weight: bold;
+}

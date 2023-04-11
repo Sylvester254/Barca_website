@@ -4,7 +4,7 @@ require_once 'User_authentication.php';
 
 function createRegistrationForm($message) {
     $html = <<<REGISTRATION_FORM
-    <div class="container">
+    <div class="container registration-container">
         <h2>Registration</h2>
         <form action="registration_page.php" method="post">
             <label for="username">Username:</label>

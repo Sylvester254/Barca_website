@@ -7,12 +7,22 @@ function createClubHistory() {
     $clubHistory = json_decode($jsonData, true);
 
     $html = <<<CLUB_HISTORY
-    <div class="container">
-        <h2>{$clubHistory['title']}</h2>
-        <p>{$clubHistory['content']}</p>
-    </div>
+    <div class="container club-history-container">
+        <h2>{$clubHistory['article_title']}</h2>
 CLUB_HISTORY;
-
+    
+    foreach ($clubHistory['article_sections'] as $section) {
+        $html .= <<<SECTION
+        <div class="section">
+            <h3 class="section-title">{$section['section_title']}</h3>
+            <p class="section-content">{$section['section_content']}</p>
+        </div>
+SECTION;
+    }
+    
+    $html .= '</div>';
+    
+    
     return $html;
 }
 

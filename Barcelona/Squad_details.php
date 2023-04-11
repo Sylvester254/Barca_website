@@ -18,9 +18,9 @@ ROW;
 
     // Create the HTML content with the generated table rows
     $html = <<<SQUAD_DETAILS
-<div class="container">
+<div class="container squad-container">
     <h2>FC Barcelona Squad</h2>
-    <table class="table table-striped">
+    <table class="squad-table">
         <thead>
             <tr>
                 <th>Name</th>
